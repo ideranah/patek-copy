@@ -69,6 +69,7 @@ li.logo{
 }
 
 .video-container{
+    width:100%;
     margin:0 auto;
 }
 
@@ -100,13 +101,12 @@ section.news{
 }
 
 .thumbnail{
-    width: 360px;
-    
+    width: 100%;
 }
 
 .thumbnail img{
     display: block;
-    width: 324px;
+    width: 90%;
     margin:0 auto;
 }
 
@@ -120,5 +120,11 @@ section.news{
 
 .gold{
     color:#ab947d;
+}
+
+.line{
+    margin:0 auto;
+    border:1px solid black;
+    width:90%;
 }
 
