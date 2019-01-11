@@ -82,6 +82,7 @@ li.logo{
 
 section.news{
     margin:0 auto;
+    width: auto;
 }
 .news-title{
     font-weight: bold;
@@ -101,7 +102,9 @@ section.news{
 }
 
 .thumbnail{
-    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
 }
 
 .thumbnail img{
@@ -128,3 +131,21 @@ section.news{
     width:90%;
 }
 
+
+@media screen and (min-width:500px){
+    section.news{
+        margin:0 auto;
+        width: 50%;
+    }
+    .thumbnail img{
+        width: 40%;
+        display: block;
+        margin:0 auto;
+    }
+
+    .blog{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+}
